@@ -26,8 +26,9 @@ type Props = {
 export default class WheelPicker extends React.Component<Props> {
   static defaultProps = {
     style: {
-      width: 200,
-      height: 150,
+      width: null,
+      height: '100%',
+      flex: 1
     },
   }
 
